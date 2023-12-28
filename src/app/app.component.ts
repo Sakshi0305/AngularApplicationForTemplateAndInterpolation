@@ -11,4 +11,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Assignment6-1';
+  public MyColor: string="Marvellous Infosystem ";
 }
