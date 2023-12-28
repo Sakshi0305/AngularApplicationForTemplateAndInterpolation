@@ -6,10 +6,24 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  //templateUrl: './app.component.html',
+  styleUrl: './app.component.css',
+
+
+
+  template: `
+  <h1>Marvellous Infosystem</h1>
+  <input type="Text">
+  
+`,
+styles: ['h1 { color: blue; }']
+  
+ 
+
 })
 export class AppComponent {
-  title = 'Assignment6-1';
-  public MyColor: string="Marvellous Infosystem ";
+  title = 'Assignment6-3';
+  
+
+
 }
